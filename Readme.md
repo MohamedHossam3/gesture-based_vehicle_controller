@@ -49,8 +49,8 @@ Gesture states and vehicle control values are logged to a file called `gesture_v
 
 ## Requirements
 
-- Python 3.8+
-- [CARLA Simulator](https://carla.org/) 0.9.14+
+- Python 3.8.10
+- [CARLA Simulator](https://carla.org/) 0.9.13
 - Dependencies:
   - `opencv-python`
   - `mediapipe`
@@ -65,7 +65,7 @@ pip install opencv-python mediapipe numpy
 
 ## Usage
 
-1. Make sure the CARLA simulator is running (`./CarlaUE4.sh -opengl`).
+1. Make sure the CARLA simulator is running (`./CarlaUE4.sh`).
 2. Run the main script:
 
 ```bash
@@ -77,14 +77,7 @@ python facial_control.py
 
 ## Demo
 
-A short video demo can be added here to show the system in action.
-
-## License
-
-MIT License
-
+[Watch demo video](video_demo/Gesture based Vehicle Control.mkv)
 ---
-
 Contributions welcome! Feel free to fork and build upon this project.
-```
 
